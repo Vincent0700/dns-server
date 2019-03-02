@@ -2,7 +2,7 @@ version: "3"
 services:
   dns-server:
     build: .
-    image: vincent/dnsmasq:0.0.1
+    image: vincent/dnsmasq:0.0.2
     container_name: dnsmasq
     cap_add:
       - NET_ADMIN
