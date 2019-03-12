@@ -15,5 +15,5 @@ $ docker-compose up --build -d
 ## Flush dns
 
 ```bash
-$ docker restart dnsmasq:0.0.1 # tag maybe not right
+$ docker restart dnsmasq
 ```
