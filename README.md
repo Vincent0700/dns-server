@@ -3,7 +3,7 @@
 ## Build
 
 ```bash
-$ docker-compose up --build -d
+$ docker-compose up -d
 ```
 
 ## Config
@@ -16,4 +16,9 @@ $ docker-compose up --build -d
 
 ```bash
 $ docker restart dnsmasq
+```
+
+## Test
+```bash
+$ dig mydomain @localhost
 ```
